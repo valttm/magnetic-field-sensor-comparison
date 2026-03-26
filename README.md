@@ -69,11 +69,23 @@ python src/analysis.py
 
 ## Results
 
-* Magnetic field strength decreases with distance, consistent with dipole behaviour
-* Magnetic moments were estimated independently from Hall probe and smartphone data
-* Differences between sensors highlight variations in measurement sensitivity and noise
+* Magnetic field strength decreases with distance, consistent with dipole behaviour  
+* Magnetic moments were estimated independently from Hall probe and smartphone data  
+* Differences between sensors highlight variations in measurement sensitivity and noise  
 
-<img width="1200" height="500" alt="Hall probe and smart phone magnetometer results" src="https://github.com/user-attachments/assets/f13ff99c-1005-423f-9364-4036ac98dd2f" />
+The fitted magnetic moments are:
+
+* **Hall probe:**  
+  m = (4.50 ± 0.01) × 10⁻¹ A m²  
+  R² ≈ 0.95  
+
+* **iPhone magnetometer:**  
+  m = (3.78 ± 0.01) × 10⁻¹ A m²  
+  R² ≈ 0.98  
+
+Both datasets show strong agreement with the dipole model, with high R² values indicating good fit quality.
+
+<img width="1200" height="500" alt="Hall probe and smartphone magnetometer results" src="https://github.com/user-attachments/assets/f13ff99c-1005-423f-9364-4036ac98dd2f" />
 
 
 ## Technologies Used
