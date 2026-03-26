@@ -66,6 +66,7 @@ python src/analysis.py
 * Nonlinear least-squares fitting using `scipy.optimize.curve_fit`
 * Uncertainty estimation from covariance matrices
 * Standard error of the mean used for measurement uncertainty
+* The dipole model was fitted to Hall probe data for distances x ≥ 0.015 m, excluding near-field measurements where the approximation breaks down
 
 ## Results
 
